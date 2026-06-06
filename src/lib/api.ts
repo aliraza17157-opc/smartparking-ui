@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
- baseURL: "https://smartparking-api-production.up.railway.app/api",
+ baseURL: "https://your-app.railway.app/api"
   headers: { "Content-Type": "application/json" },
 });
 
